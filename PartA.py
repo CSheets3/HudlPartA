@@ -12,8 +12,8 @@ browser.get('https://www.hudl.com/login')
 time.sleep(2)
 browser.maximize_window()
 
-username = 'cody12sheets@gmail.com'
-password = 'Dwighthoward12!'
+username = ''
+password = ''
 
 # Puts my username in the email field
 email_login = browser.find_element_by_id('email').send_keys(username)
